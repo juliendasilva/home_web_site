@@ -1,0 +1,34 @@
+{
+  "name": "w2-p2018-12",
+  "version": "1.0.0",
+  "description": "Mobile first Hetic project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp watch",
+    "dev": "./node_modules/.bin/gulp watch",
+    "prod": "./node_modules/.bin/gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliendasilva/w2-p2018-12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/juliendasilva/w2-p2018-12#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-uncss": "^1.0.6"
+  }
+}
